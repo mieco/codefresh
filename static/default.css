@@ -1,0 +1,29 @@
+@tailwind base;@tailwind components;@tailwind utilities;@font-face {
+    font-family: Inter;
+    font-weight: 100 900;
+    font-display: block;
+    font-style: normal;
+    font-named-instance:"Regular";src: url(/Inter-roman.var.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 100 900;
+    font-display: block;
+    font-style: italic;
+    font-named-instance:"Italic";src: url(/Inter-italic.var.woff2) format("woff2")
+}
+html {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    font-family: Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    font-feature-settings: normal
+}
+
+
+* {
+    color: #f8fafc;
+}
