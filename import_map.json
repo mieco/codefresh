@@ -8,7 +8,9 @@
     "twind": "https://esm.sh/twind@0.16.17",
     "twind/": "https://esm.sh/twind@0.16.17/",
     "daisyui":"https://esm.sh/daisyui@2.50.0",
-    "daisyui/":"https://esm.sh/daisyui@2.50.0/"
+    "daisyui/":"https://esm.sh/daisyui@2.50.0/",
+    "lodash":"https://esm.sh/lodash@4.17.19",
+    "lodash/":"https://esm.sh/lodash@4.17.19/"
     
   }
 }

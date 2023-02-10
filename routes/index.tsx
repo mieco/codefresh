@@ -5,7 +5,7 @@ import { Head } from "$fresh/src/runtime/head.ts";
 
 import Counter from "../islands/Counter.tsx";
 import Header from "../components/Header.tsx";
-import VendingMachine from "../components/VendingMachine.tsx";
+import VendingMachine from "../islands/VendingMachine.tsx";
 
 console.log(tw);
 export default function Home() {

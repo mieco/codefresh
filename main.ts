@@ -10,6 +10,9 @@ import twindPlugin from "$fresh/plugins/twind.ts";
 
 import manifest from "./fresh.gen.ts";
 import twindConfig from "./tailwind.config.ts";
+// import initData from "./utils/init_data.ts";
 
+
+// initData()
 const twPluginInstance = twindPlugin(twindConfig);
 await start(manifest, { plugins: [twPluginInstance] });
